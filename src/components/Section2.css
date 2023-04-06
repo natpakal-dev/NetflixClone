@@ -1,0 +1,36 @@
+.main-question {
+    background-color: rgba(0, 8, 29, 1);
+
+}
+
+.MuiInputBase-root {
+    background-color: rgba(22, 22, 22, 0.7) !important;
+    border: 1px solid rgba(128, 128, 128, 0.7);
+
+}
+
+@media screen and (min-width:600px) {
+    .main-question {
+        padding: 1rem 3rem !important;
+    }
+    .main-question h1 {
+        padding-top: 7rem!important;
+    }
+
+}
+@media screen and (min-width:1280px) {
+    .main-question {
+        padding: 7rem 12rem !important;
+    }
+}
+@media screen and (min-width:1920px) {
+    .main-question {
+        padding: 3rem 13rem !important;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .main-question {
+        padding: 4rem 3rem !important;
+    }
+}

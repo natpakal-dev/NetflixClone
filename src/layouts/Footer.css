@@ -1,0 +1,59 @@
+.control-footer {
+    background-color: rgba(0, 8, 29, 1);
+}
+
+.control-footer h5 {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1rem;
+}
+
+.control-footer h5 u {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.875rem;
+    cursor: pointer;
+}
+
+.content-footer {
+    padding-top: 2rem;
+}
+
+.content-footer h5 {
+    padding: 10px 0;
+}
+
+.select-footer {
+    padding-top: 15px;
+}
+
+.select-footer select {
+    padding: 5px;
+    background: none;
+    height: 35px;
+    width: 110px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+@media screen and (min-width: 600px) {
+    .control-footer {
+        padding: 5rem 3rem !important;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .control-footer {
+        padding: 2rem 12rem !important;
+    }
+}
+
+@media screen and (min-width:1920px) {
+    .control-footer {
+        padding: 2rem 13rem !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .control-footer {
+        padding: 1rem 3rem !important;
+    }
+}

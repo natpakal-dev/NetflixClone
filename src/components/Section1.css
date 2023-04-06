@@ -1,0 +1,98 @@
+.mainContent {
+   background-color: rgba(0, 8, 29, 1);
+}
+
+.reverse-content {
+   display: flex !important;
+}
+
+.normalContent {
+   display: flex;
+}
+
+@media screen and (min-width:1920px) {
+   .contentImg img {
+      background: radial-gradient(55.04% 42.91% at 50.16% 42.91%, #65143B 0%, #00081D 100%);
+   }
+
+   .mainContent {
+      padding: 4.25rem 15rem;
+   }
+
+   .nameContent {
+      padding-top: 10rem !important;
+   }
+
+   .nameContent h5 {
+      padding-top: 1rem;
+      font-size: 1.25rem;
+      font-weight: 400;
+   }
+}
+
+@media screen and (min-width:1280px) {
+   .contentImg img {
+      background: radial-gradient(45.04% 42.91% at 50.16% 40.91%, #65143B 0%, #00081D 100%);
+   }
+
+   .mainContent {
+      padding: 4.25rem 10rem;
+   }
+
+   .nameContent {
+      padding: 3rem;
+      padding-top: 7rem !important;
+   }
+
+   .nameContent h5 {
+      padding-top: 1rem;
+      font-size: 1rem;
+      font-weight: 400;
+   }
+}
+
+@media screen and (min-width:600px) {
+   .bg-content {
+      background: radial-gradient(22.04% 42.91% at 67.16% 42.91%, #65143B 0%, #00081D 100%);
+   }
+
+   .nameContent {
+      padding: 3rem;
+      padding-top: 5rem;
+   }
+
+   .nameContent h5 {
+      padding-top: 1rem;
+      font-size: 1rem;
+      font-weight: 400;
+   }
+}
+
+@media screen and (max-width:600px) {
+   .bg-content {
+      background: radial-gradient(22.04% 42.91% at 67.16% 42.91%, #65143B 0%, #00081D 100%);
+   }
+
+   .reverse-content {
+      flex-direction: column-reverse !important;
+   }
+
+   .reverse-content img {
+      width: 100%;
+   }
+
+   .nameContent {
+      padding: 3rem;
+
+   }
+
+   .nameContent h5 {
+      padding-top: 1rem;
+      font-size: 1rem;
+      font-weight: 400;
+   }
+
+   .normalContent {
+      flex-wrap: wrap !important
+   }
+}
